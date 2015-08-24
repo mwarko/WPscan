@@ -33,7 +33,7 @@ def main():
 
 
 def exxit():
-	exit()
+	sys.exit()
 
 lbl = tkinter.Label(window, text="Rentrez le nom du site ici (exemple : google.com)")
 texte = tkinter.Entry(window)
