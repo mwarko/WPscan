@@ -35,10 +35,10 @@ def main():
 def exxit():
 	sys.exit()
 
-lbl = tkinter.Label(window, text="Rentrez le nom du site ici (exemple : google.com)")
-texte = tkinter.Entry(window)
-btn = tkinter.Button(window, text="OK", command=main)
-btnquit = tkinter.Button(window, text="Quitter", command=exxit)
+lbl = tkinter.Label(fenetre, text="Rentrez le nom du site ici (exemple : google.com)")
+texte = tkinter.Entry(fenetre)
+btn = tkinter.Button(fenetre, text="OK", command=main)
+btnquit = tkinter.Button(fenetre, text="Quitter", command=exxit)
 lbl.pack()
 btn.pack()
 fenetre.pack()
