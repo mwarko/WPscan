@@ -40,6 +40,9 @@ texte = tkinter.Entry(fenetre)
 btn = tkinter.Button(fenetre, text="OK", command=main)
 btnquit = tkinter.Button(fenetre, text="Quitter", command=exxit)
 lbl.pack()
+texte.pack()
 btn.pack()
-fenetre.pack()
+btnquit.pack()
+fenetre.mainloop()
+
 
