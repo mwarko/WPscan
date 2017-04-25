@@ -28,17 +28,18 @@ def scanwp(adresse):
 
 
 def main():
-	addr = texte.get()
-	scanwp(addr)
+	addrwp = texte.get()
+	scanwp(addrwp)
 
 
 def exxit():
 	sys.exit()
-
+lbl_WP = tkinter.Label(fenetre, text='EST-CE QUE CE SITE EST EN WORDPRESS ?')
 lbl = tkinter.Label(fenetre, text="Rentrez le nom du site ici (exemple : google.com)")
 texte = tkinter.Entry(fenetre)
 btn = tkinter.Button(fenetre, text="OK", command=main)
 btnquit = tkinter.Button(fenetre, text="Quitter", command=exxit)
+lbl_WP.pack()
 lbl.pack()
 texte.pack()
 btn.pack()
